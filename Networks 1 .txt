@@ -1,0 +1,64 @@
+computer networks notes
+PC 
+server
+hosts or end ssstem
+communication links, fiber cooper radio, staellite
+
+routers & switches forwards packets (Chuncks of data)
+
+routers/sqitches, can reroute data or switch routes of data.
+
+
+intenrtnet network of networks
+
+Internet standards
+
+IETF: INternet NEegineering Taks FOC
+
+PFC Request for comments
+
+IEEE for links/hardward
+
+Ethernet 892.11(WiFI), etc
+
+procotocls control sending receieve of mesgaes
+
+eg. TCP, IP HTTP Sky.
+
+
+Telephone 64kbit/s, requirement low requirement
+
+
+The network core
+
+Bandwidth, bits/s
+
+circuit-switching: dedicated circuit per call: telephone nets
+
+packet-switching: data sent thru net in discrete "chuncks"
+
+busy signal: no resources available.
+
+reserved path, reserved resources:
+no sharing: interference between bits
+tower, radio to line? to radio?
+
+fdm tdm
+
+time division mulitple axis
+frequency division multiple axis
+bandwidth division tactic, either divide by frequency or by time
+
+1gbps = 10^9bps
+1mbps = 10^6bps
+1kbps = 10^3bps
+
+
+Packet switching
+statistical multiplexing
+R = 100Mb/s
+R = 1.5Mb/s
+queue of packets, waiting for output link
+
+On demand packet scheme in packet switching.
+destination address arriving in packet's header.

@@ -1,0 +1,18 @@
+probability: proportion of times the outcome would occur
+Law of Large Numbers: probability over large sample size converge to probabilistic value 1/n
+Disjoint outcomes: outcomes which cannot happen at the same time.
+Addition Rule: Probability of either disjoint outcomes happening, then P(1) + P(2), where P is probability of x
+
+Non Disjoint
+GeneralAdditionRule P(A or B) = P(A) + P(B) - P(A and B)
+
+P(A and B) = Intersection of values in non disjoint set divided by N
+
+Probability Distribution,
+Table of probabilities based on different sets of outcomes
+sample Space Set of All outcomes
+Complement - Set of all outcomes in sample space that inside current set.
+
+Independent: Outcome of one event does not influence the outcome of another event.
+Multiplication Rule For Independent Processses
+P(A and B) = P(A) * P(B)...
