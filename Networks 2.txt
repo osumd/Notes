@@ -1,0 +1,34 @@
+Transmission Delay: Size of File/Speed(Bandwidth) = Time
+
+3Mbs/sec
+Queue, conflicting when 3/5, or 3/7 : Probability? That a packet will not fall into 3mbs time zone.
+
+Question #1
+A,B,C : users, changes that one and only one user is active at a given time.
+p(1-p)(1-p) + p(1-p)(1-p) so on....
+C(3,1)
+
+
+Question #2:
+	Cances that two and only two users among 3 are active at given time
+
+Answer:
+	chances {A,B are active & c is not} ||
+		{B,C are active & A is not} ||
+		{A,C are active & B is not} 
+	p*p*(1-p) + p*p(1-p) + p*p*(1-p) =
+	3*p^2(1-p)
+	3 choose 2, answer C(3,2)
+
+Answer:
+	Np(1-p)^{n-1} amoungt N active
+
+Formula C(N,k)p^k(1-p)^(n-k)
+
+At 5 ten C(N-3,K) | Chance No Bit Crack
+
+Question 2:
+	Chance one user won't get 1Mbpbs
+
+(7 7)p^7 ... (7 6)p^6(1-p) + (7 5)p^5(1-p)^2 .... ntil 3
+
