@@ -53,6 +53,10 @@ bandwidth division tactic, either divide by frequency or by time
 1mbps = 10^6bps
 1kbps = 10^3bps
 
+1000 bits 3000 meters (10Mbs)
+
+(1/10) + (3x10^8*3000)
+
 
 Packet switching
 statistical multiplexing

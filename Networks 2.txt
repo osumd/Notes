@@ -32,3 +32,9 @@ Question 2:
 
 (7 7)p^7 ... (7 6)p^6(1-p) + (7 5)p^5(1-p)^2 .... ntil 3
 
+d_proc = proccess request
+d_queue = setting delays and resource management.
+d_trans = L/r, L: packet length(bits, R: link bandwidth (bps)
+d_prop = d:length of l=physical link s:progpogation speed (1x^108 m/s), d_prop = d/s
+
+

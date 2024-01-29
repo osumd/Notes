@@ -1,0 +1,23 @@
+Dustin Kever-Smith			Vim Notes 01/24/2024
+
+	Edit log 4.0:
+		Ready to achieve understanding of neccecary instructions for the latest.
+		assignments.
+	Unsure how to break out of tab land in vim.
+	Do not use enter to start a new line when trying to reset tab use esc O
+	do not use escape O in vim. Use esc.
+Use escape O escape. How unfortunate, lol....
+
+Possible Lecture Contents:
+More on jest: Unit Test Development:
+	Naive Unit Test
+		Jest Refresher:	
+			adfadsfda.test.js
+			or in folder /tests. test('descriptor', function()){expect(arithmetic,expected_value)}
+			naive implementation of error handling and throwing and cathing, prevents other
+			cases to be tested.
+		
+			
+
+
+

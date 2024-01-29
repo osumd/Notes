@@ -1,0 +1,107 @@
+Packet lengt = L bits
+trans, rate R = 1Mbps
+distance = 1km, speed = 2x10^m/s
+
+Question: which bit is being transmitted at the time the first bit arrives at Host B
+
+	(L/1Mbps) assumed 1 bit takes 1 microseconds to send.
+	(1000m/2x10^m/s) = 5 microsecond,
+	
+then after the 6th bit, finally the 1st bit arrives and the 7th bit is about to be sent.
+
+
+Excersize 3
+arrival rate = 64kbps, 6400/1000000 = mbps 
+trans.rate R = 1Mbps,
+delay_prop = 2msec
+
+if group packet is 48 Bytes
+transmission delay: 48*8 bits / 74 * 1000 bps
+
+
+HostA:
+	converts analog to digital at a =64kbps
+	group bits into L=48Byte packets
+	sends packet to Host B as soon it gathers a packet
+
+HostB:
+	s soon as it recieves the whole pakcet it converts it to analog.
+
+How much time elapses from when 1st bit of 1st packet is created until
+the last bit of the 1st packet arrives at Host B
+
+transmission delay + propogation delay, per bit
+
+
+queuing delay and packet loss
+queueing and loss:
+if arrival rate exceeds link's transmission rate, then there will be:
+	Delay: packets will queue, wait to be transmissed on link
+	Loss: packets can be dropped if memory (buffer) fills up
+eg. if the propogation or transmission time is slower than the arrival of bits
+
+Queueing delay ( more insights)
+a = arrival rate eg 48kbs
+Packet arrival rate = a packets/sec
+Packet length = L bits , 
+Link bandwidth = R bits/sec
+Every second: aL bits arrive to queue | arrival rate
+Every second: R bits leave the router
+
+stable system aL < R
+or unstable system
+
+P = aL/R is called traffic intensity
+should be less than 1
+
+N packets every T seconds
+packets per second N/T
+
+arrival rate a = 1/(L/R) = R/L (packets/seconds)
+Traffic intensity = aL/R = (R/L)(L/R) = 1
+average queueing delay = 0 when 1 because arrival rate is same as transmission rate
+and don't need to be queued
+
+((R/L)*i(L/R)*i) - i
+
+if
+N packet arrive simulatenous every LN/R,
+then a = N/(LN/R) = R/L
+Traffic intensity = aL/R = (R/L)(L/R) = 1
+
+Store and forward
+
+distance=  d m; sped of propagation = s m/sec
+
+transmission rate of link = R bits/s
+
+delay (one packet only) to simply transmit
+= L/R + d/s 
+
+2L/R
+
+Store and Forward (impace of queueing delay)
+	different rates 
+		R1 and R2 bit/s
+	consider sending 2 packets A and B size L
+Two cases:
+	Case 1: R1 < R2: no queuing delay
+		L/R1 > L/R2, then transmission delay
+		from router 1 to router 2 is greater.
+		because transmission speed is less.
+	Case 2: R1 > R2: ther is queuing delay.
+		L/R2 > L/R1
+		then queueing delay is
+		L/R2 - L/R1
+
+Throughput:
+	througput: rate (bits/time unit) of bit transferred between sender and
+	receiver
+		instantaneous: rate at given point in time
+		average: rate over longer period of time
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+Unit Test:
+	Test single functionality of a wider program, in which the contents including global variables are
+	are not effected by the unity test.
+	
+	Global variables being changed in one unit test can effect the behaviour of other modules
+	within the code space.
+Problem with naive implementation of unit test:
+	If one error fails before all other unit test scenarios are run, then it is bad.
+
+	
+
+Unit testing framework.
+	Java Script Testing Framework.
+		npm install --save-dev jest
+			: save -dev says : i want to install this package locally withi n my node_modules
+			folders, specifically within a development sub module and only a dependency durring
+			development
+	Inversion Of Control:
+		You give it your code and it will execute your ode with in some larger context.
+
+		Use jest to run our code, jest commands are seemmlessly in mvm,
+		Set up npm test commands to implement
+
+		Package.json
+		Set scripts: "test": "jest"
+
+	Jest unit tests.
+		option 1: file in driectory __tests__, anywhere in proejcts make it.
+			the test directory could be in the top or sub directory.
+
+		option 2: or file name says something.test.js and npm test will locate this and execute this file.
+			
+		use function test('test_description', function(*test_itself) )		: test now.
+		
+		assertions in jest:
+			expect("input value").toBe("expected value").
+		
+	Assignment.
+		Write a list of alot of unit tests.
